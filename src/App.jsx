@@ -1,11 +1,16 @@
-import { useState } from 'react';
 import AboutMe from "./components/AboutMe";
 import HabilitiesContainer from './components/HabilitiesContainer';
-import './styles/App.css';
+import Sidebar from "./components/Sidebar.jsx";
+import MainContext from "./components/MainContext";
+
+import "./styles/components/app.sass"
 
 function App() {
   return (
-    <div>
+    <div id='portfolio'>
+      <h1>Allan Amâncio</h1>
+      <Sidebar />
+      <MainContext />
       <AboutMe/>
       <HabilitiesContainer/>
     </div>
