@@ -1,5 +1,7 @@
+import '../styles/components/maincontext.sass';
+
 const MainContext = () => {
-    return <div>Main Context</div>
+    return <main id="main-context">Main Context</main>
 }
 
 export default MainContext
