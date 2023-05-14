@@ -1,4 +1,5 @@
 import SocialNetworks from './SocialNetworks'
+import InformationContainer from './InformationContainer'
 
 import Avatar from '../img/allan-to-portfolio.jpg'
 
@@ -9,6 +10,7 @@ const Sidebar = () => {
         <img src={Avatar} alt="Foto de Allan Amâncio" />
         <p className="title">Desenvolvedor</p>
         <SocialNetworks />
+        <InformationContainer />
         <p>informações de contato</p>
         <a href="" className="btn">
             Download currículo (CV)

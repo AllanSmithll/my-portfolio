@@ -8,13 +8,13 @@ function getSemester() {
 }
   
 
-function AboutMe() {
+const AboutContainer = () => {
     return (
-        <section id="presentation">
+        <section className="aboutcontainer">
             <h2>Sobre mim</h2>
             <p>Sou o Allan Amâncio, sou estudante do {getSemester()}º período do Curso Superior de Tecnologia em Sistemas para Internet - IFPB. Atualmente trabalho com projetos fullstack, em diversas linguagens de programação e ferramentas utilitárias. Espero que goste de algum dos meus projetos. Fique à vontade!</p>
         </section>
     );
 }
 
-export default AboutMe
+export default AboutContainer
